@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ikd_tree</name>
+  <version>0.0.0</version>
+  <description>The ikd_tree_library -- ikd-Tree is an incremental k-d tree designed for robotic applications. The ikd-Tree incrementally
+   updates a k-d tree with new coming points only, leading to much lower computation time than existing static k-d trees. Besides point-wise 
+   operations, the ikd-Tree supports several features such as box-wise operations and down-sampling that are practically useful in robotic 
+   applications.</description>
+
+  <!-- Developer -->
+  <maintainer email="yixicai@connect.hku.hk">Yixi Cai</maintainer>
+  <!-- License Tag-->
+  <license>GPLv2</license>
+  <!-- Repository-->
+  <url type="repository">https://github.com/hku-mars/ikd-Tree</url>
+
+  <!-- The *depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
